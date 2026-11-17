@@ -13,7 +13,7 @@ var PAT_WHY=[
 var TIER_NAMES=['Opportunity','Meets target','High performance'];
 var TIER_ICON=['\uD83D\uDD34','\uD83D\uDFE1','\u2705'];
 
-var NAT={ot:8.9,ag:5.7,hp:3.86,rn:0.66,to:46.6,re:23.9,fa:3.18};
+var NAT={ot:9.0,ag:5.8,hp:3.90,rn:0.67,to:45.9,re:23.5,fa:3.09};
 
 function tierFor(k,v){
   if(v==null)return null;
@@ -218,7 +218,7 @@ function covrBlock(){
     '<a class="rg-cta" href="https://www.covr.care/contact">Schedule a demo</a></div>';
 }
 function foot(){
-  return '<div class="rg-foot">Benchmark targets from the Covr SNF Staffing Benchmarks report. Source: CMS PBJ Q2–Q4 2025 (overtime, agency); CMS Provider Info &amp; MDS Quality Measures May 2026. SNF-only; CCRCs excluded; n = 13,098. National averages: overtime 8.9%, agency 5.7%, adjusted HPRD 3.86, RN HPRD 0.66, turnover 46.6%, rehospitalization 23.9%, falls 3.18%. Savings figures are modeled estimates, not a quote.</div>';
+  return '<div class="rg-foot">Benchmark targets from the Covr SNF Staffing Benchmarks report. Source: CMS Payroll-Based Journal Q2 2026 (overtime, agency); CMS staffing and quality data through June 30, 2026 (HPRD, census, falls); nurse turnover and rehospitalization for the 12 months ending March 31, 2026. SNF-only; CCRCs excluded; n = 12,912. National averages: overtime 9.0%, agency 5.8%, adjusted HPRD 3.90, RN HPRD 0.67, turnover 45.9%, rehospitalization 23.5%, falls 3.09%. Savings figures are modeled estimates, not a quote.</div>';
 }
 
 function renderFacility(f){
